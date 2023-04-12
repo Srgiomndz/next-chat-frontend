@@ -1,0 +1,4 @@
+{
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.tsdk": "/Users/sergio/Desktop/next-chat/frontend/node_modules/typescript/lib"
+  }
