@@ -1,4 +1,4 @@
-import { SendMessageArguments } from '@/../backend/src/util/types'
+import { SendMessageArguments } from '../../../../util/common'
 import { useMutation } from '@apollo/client'
 import { Box, Input } from '@chakra-ui/react'
 import { Message } from 'graphql-ws'

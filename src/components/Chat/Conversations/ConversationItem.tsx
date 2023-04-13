@@ -16,7 +16,7 @@ import {
   import { BiLogOut } from "react-icons/bi";
   import { AiOutlineEdit } from "react-icons/ai";
   import { formatUsernames } from "../../../util/functions";
-  import { ConversationPopulated } from "../../../../../backend/src/util/types";
+  import { ConversationPopulated } from "../../../util/common";
   
   const formatRelativeLocale = {
     lastWeek: "eeee",

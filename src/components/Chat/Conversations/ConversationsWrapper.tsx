@@ -11,7 +11,7 @@ import {
 import {
   ConversationPopulated,
   ParticipantPopulated,
-} from "../../../../../backend/src/util/types";
+} from "../../../util/common";
 import { cache, useEffect } from "react";
 import { useRouter } from "next/router";
 import SkeletonLoader from "../../common/SkeletonLoader";
