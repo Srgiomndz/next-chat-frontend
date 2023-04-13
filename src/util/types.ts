@@ -2,7 +2,7 @@ import { Prisma } from '@prisma/client'
 import {
   ConversationPopulated,
   MessagePopulated,
-} from '../../../backend/src/util/types'
+} from '../util/common'
 
 // USERS
 
