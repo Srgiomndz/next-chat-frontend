@@ -5,14 +5,14 @@ import { createClient } from 'graphql-ws';
 import { getSession } from 'next-auth/react';
 
 const httpLink = new HttpLink({
-   uri: 'https://next-chat-backend.herokuapp.com/',
+   uri: 'https://next-chat-backend.herokuapp.com/graphql',
    credentials: 'include',
 })
 
 
 
 const wsLink = typeof window !== 'undefined' ? new GraphQLWsLink(createClient({
-   url: 'ws://next-chat-backend.herokuapp.com/subscriptions',
+   url: 'ws://next-chat-backend.herokuapp.com/graphql/subscriptions',
    connectionParams: async () => ({
       session: await getSession()
    })
