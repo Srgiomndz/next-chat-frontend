@@ -5,7 +5,7 @@ import { createClient } from 'graphql-ws';
 import { getSession } from 'next-auth/react';
 
 const httpLink = new HttpLink({
-   uri: 'https://next-chat-backend.herokuapp.com/',
+   uri: 'https://next-chat-backend.herokuapp.com/graphql',
    credentials: 'include',
 })
 
